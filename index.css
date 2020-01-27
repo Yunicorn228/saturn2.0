@@ -99,7 +99,7 @@ img {
   .room {
     font-size: 16px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #8c99a6;
     padding-top: 16px;
   }
 
@@ -233,14 +233,18 @@ img {
     width: 67%;
     position: relative;
     left: 33vw;
-    height: 100vh;
     background-color: white;
+    height: auto;
   }
 
   .logo {
     position: absolute;
     top: 32px;
-    left: 16px;
+    left: 24px;
+  }
+
+  .detail__ring {
+    margin-right: 0px;
   }
 
   .detail__content {
@@ -259,6 +263,17 @@ img {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    width: 80%;
+  }
+
+  .prograssbar__bar {
+    background-color: #f1f2f4;
+  }
+
+  .prograss {
+    background-color: #ea3f58;
   }
 
   .class {
@@ -279,5 +294,29 @@ img {
 
   .oncomingclass {
     background-color: white;
+  }
+
+  button {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+  }
+
+  .list__head {
+    padding-top: 84px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .list__head {
+    padding: 120px 72px 32px 72px;
+  }
+
+  .oncomingclass {
+    margin: 0px 72px;
+  }
+
+  .prograssbar {
+    max-width: 380px;
   }
 }
