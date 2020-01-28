@@ -91,6 +91,38 @@ img {
     margin-right: 40px;
   }
 
+  svg .time {
+    font-size: 48px;
+    line-height: 74px;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  svg .period {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  svg .done {
+    fill: #ed882c;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  svg .progress-ring__circle {
+    stroke: rgba(255, 255, 255, 0.1);
+  }
+
+  .progress__length {
+    stroke-dasharray: 150 451;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: #ed882b;
+    stroke-linecap: round;
+  }
+
   .view__block__title {
     display: flex;
     flex-direction: column;
@@ -140,6 +172,12 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 50px 32px 32px 56px;
+  }
+
+  .head__container {
+    max-width: 90%;
+    width: 100%;
+    margin: auto;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -309,6 +347,13 @@ img {
 
   .list__head {
     padding-top: 84px;
+  }
+
+  .head__container {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   }
 }
 
