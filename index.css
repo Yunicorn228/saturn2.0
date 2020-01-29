@@ -282,6 +282,7 @@ img {
 
   .logo {
     position: absolute;
+    padding: 0px;
     top: 32px;
     left: 24px;
   }
@@ -368,5 +369,42 @@ img {
 
   .prograssbar {
     max-width: 380px;
+  }
+
+  .school {
+    font-size: 16px;
+  }
+
+  .list__date {
+    font-size: 32px;
+  }
+
+  .oncomingclass__class {
+    font-size: 24px;
+  }
+
+  .oncomingclass__room {
+    font-size: 20px;
+  }
+
+  .class {
+    font-size: 28px;
+  }
+
+  .room {
+    font-size: 20px;
+  }
+
+  .order {
+    margin-right: 48px;
+  }
+
+  .oncomingclass {
+    padding: 50px 32px 45px 0px;
+  }
+
+  .logo {
+    top: 40px;
+    left: 42px;
   }
 }
